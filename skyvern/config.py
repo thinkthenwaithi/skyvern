@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     EXECUTE_ALL_STEPS: bool = True
     JSON_LOGGING: bool = False
     LOG_LEVEL: str = "INFO"
-    PORT: int = 8000
+    PORT: int = 8001
     ALLOWED_ORIGINS: list[str] = ["*"]
     BLOCKED_HOSTS: list[str] = ["localhost"]
 
