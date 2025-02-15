@@ -2,7 +2,7 @@ import { createServer } from "http";
 import handler from "serve-handler";
 import open from "open";
 
-const port = 9001;
+const port = 9000;
 const url = `http://localhost:${port}`;
 
 const server = createServer((request, response) => {
@@ -19,7 +19,7 @@ const server = createServer((request, response) => {
   });
 });
 
-server.listen(9001, async () => {
+server.listen(9000, async () => {
   console.log(`Running at ${url}`);
   await open(url);
 });
