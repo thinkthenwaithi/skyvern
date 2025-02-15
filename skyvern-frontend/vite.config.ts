@@ -6,10 +6,10 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 9001,
+    port: 9000,
   },
   preview: {
-    port: 9001,
+    port: 9000,
   },
   resolve: {
     alias: {
